@@ -1,0 +1,92 @@
+.shopDisplaySection .smallNavigation .unstyled-list div {
+    margin-top: 2rem;
+}
+
+.shopDisplaySection .smallNavigation .unstyled-list div:first-child {
+    margin-top: 0rem;
+}
+
+.shopDisplaySection .bigNavigation .unstyled-list {
+    list-style: none;
+}
+
+.shopDisplaySection .bigNavigation .unstyled-list li {
+    margin-top: 1rem;
+}
+
+.shopDisplaySection .bigNavigation .unstyled-list li:first-child {
+    margin-top: 0rem;
+}
+
+.shopDisplaySection .bigNavigation .unstyled-list li img {
+    height: 600px
+}
+
+/* second style display css here */
+.shopDisplaySection .bigNavigation2 .unstyled-list {
+    list-style: none;
+}
+
+.shopDisplaySection .bigNavigation2 .unstyled-list li {
+    margin-top: 1rem;
+}
+
+.shopDisplaySection .bigNavigation2 .unstyled-list li:first-child {
+    margin-top: 0rem;
+}
+
+.shopDisplaySection .bigNavigation2 .unstyled-list li img {
+    height: 630px;
+}
+
+.myOnspotList {
+    height: 630px;
+    overflow: hidden;
+}
+
+.description_product ul {
+    list-style: none;
+}
+
+.description_product ul li {
+    float: left;
+    margin-left: 1rem;
+}
+
+.stickyNavigation {
+    /* position: fixed; */
+}
+
+.description_product ul li:first-child {
+    margin-left: 0rem;
+}
+
+.buttonFullSize {
+    width: 100%;
+    transition: all 0.6s;
+    margin-top: 1rem;
+}
+
+.customLR_padding {
+    /* padding-left: 3rem;
+    padding-right: 3rem; */
+}
+
+.paragraphProduct {
+    font-size: 11pt;
+    font-weight: 500;
+}
+
+.priceProduct {
+    padding-top: 1rem;
+    font-size: 16pt;
+    font-weight: 500;
+}
+
+.display_block_desktop {
+    display: none !important;
+}
+
+.newArrivalSectionbackground {
+    background-color: whitesmoke;
+}

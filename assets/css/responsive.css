@@ -1,0 +1,318 @@
+.PageFullHeight{
+    height:85vh;
+}
+
+
+/* responsive Header start */
+@media only screen and (max-width: 1000px) {
+    .searchInputSize {
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .shopByLook-section .owl-nav .owl-next span {
+        left: -71% !important;
+    }
+
+    .shopByLook-section .owl-nav .owl-prev span {
+        left: -119% !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .searchInputSize {
+        margin: 0 auto;
+    }
+
+    /* .customLR_padding {
+        padding-left: 10px;
+        padding-right: 10px;
+    } */
+
+    .pt-4-custom {
+        padding-top: 1rem;
+    }
+
+    .shopByLook-section .owl-nav .owl-prev span {
+        left: -116% !important;
+    }
+
+    .shopByLook-section .owl-nav .owl-next span {
+        left: -69% !important;
+    }
+
+    /* shop product page */
+    .display_none_tab_mobile {
+        display: none;
+    }
+
+    .display_block_desktop {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .megamenuStyle {
+        overflow: auto;
+        height: 50vh;
+        width: 280px;
+        font-size: 11pt;
+    }
+
+    .paddind-left-custom {
+        padding-left: 1rem;
+    }
+    .banner-section .carousel-item .bannerBack {
+        height: 305px !important;
+    }
+
+     .headingBanner {
+          display:none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+}
+
+
+/* home page responsive */
+@media (max-width: 991px) {
+
+    /* nav bar responsive  */
+    .responsive-nav {
+        background: rgb(220, 53, 69);
+        border: 1px solid floralwhite;
+        margin-top: 7px;
+    }
+
+    .responsive-nav ul li a {
+        color: white !important;
+    }
+
+    .megamenuStyle .dropdown-item {
+        color: #756f71 !important;
+    }
+
+    .color-section .w-100 {
+        width: 105%;
+    }
+
+    .overLayPosition {
+        width: 96%;
+    }
+
+    .overlayText {
+        font-size: 17pt;
+        width: 96%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+
+    .spring_section .container {
+        max-width: 690px;
+    }
+
+    .video-section .container {
+        max-width: 690px;
+    }
+
+    .spring_section .navigation,
+    #myCarousel-video .navigation,
+    #myCarousel-category .navigation {
+        width: 28px;
+        color: white;
+        background: #dc3545;
+    }
+
+    .btn-danger {
+        font-size: 10pt;
+    }
+
+    .marquee-section {
+
+        padding-top: 0.5rem;
+    }
+
+    marquee span {
+        font-size: 20pt;
+    }
+
+    span:before {
+        right: 68% !important;
+    }
+
+    span:after {
+        left: 68% !important;
+    }
+
+    .carousel-control-next {
+        z-index: 11111;
+    }
+
+    .carousel-control-prev {
+        z-index: 11111;
+    }
+
+    .lookImage {
+        width: 310px;
+        height: 490px;
+    }
+
+    #myCarousel-category .carousel-control-next {
+        top: 25%;
+    }
+
+    #myCarousel-category .carousel-control-prev {
+        top: 25%;
+    }
+}
+
+@media (max-width: 576px) {
+    .category_text {
+        font-size: 13pt;
+    }
+
+    .footerHeading {
+        font-size: 10pt;
+        padding-top: 2rem;
+    }
+
+    .footerParagraph {
+        font-size: 9pt;
+    }
+
+    .footer-section ul li a {
+        font-size: 10pt;
+    }
+
+    span:before,
+    span:after {
+        width: 0px !important;
+    }
+
+    .spring_section .container-fluid {
+        padding: 0;
+    }
+
+    .spring_section .Heading {
+        font-size: 10pt;
+    }
+
+    .spring_section .nav-tabs .nav-item {
+        margin-left: 0rem;
+    }
+
+    .padding0Mobile {
+        padding: 0;
+    }
+
+    .spring_section .navigation,
+    #myCarousel-video .navigation {
+        width: 28px;
+        color: white;
+        background: #dc3545;
+    }
+
+    .carousel-control-next {
+        position: absolute;
+        top: 103%;
+        right: 0%;
+        z-index: 11111;
+    }
+
+    .carousel-control-prev {
+        position: absolute;
+        top: 103%;
+        left: 0%;
+        z-index: 11111;
+    }
+
+    .btn-danger {
+        font-size: 10pt;
+    }
+
+    .marquee-section {
+
+        padding-top: 0.5rem;
+    }
+
+    marquee span {
+        font-size: 20pt;
+    }
+
+    .overlayText {
+        font-size: 15pt;
+        width: 93%;
+    }
+
+    .overLayPosition {
+        width: 93%;
+    }
+
+    .customLR_padding .pl-5 {
+        padding-left: 1rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .border_left_gray{
+        padding-bottom:1rem;
+        margin-top: 1rem;
+        border:1px solid whitesmoke;
+    }
+    .containerCard img{
+        padding-bottom:1rem;
+    }
+    .PageFullHeight{
+        height:auto;
+    }
+    .banner-section .carousel-item .bannerBack {
+        /*height: 100vh;*/
+    }
+     .headingBanner {
+          display:none;
+    }
+    .myBannerShop {
+        height: 92vh !important;
+    }
+
+    .responsiveLook {
+        display: none;
+    }
+
+    .shopByLook-section .carousel-control-next {
+        top: 88%;
+        right: 0%;
+    }
+
+    .shopByLook-section .carousel-control-prev {
+        top: 88%;
+        left: 0%;
+    }
+
+    .newArrivalSection .carousel-control-next {
+        top: 98%;
+        right: 0%;
+    }
+
+    .newArrivalSection .carousel-control-prev {
+        top: 98%;
+        left: 0%;
+    }
+
+    .shopByLook-section .navigation,
+    #myCarousel-category .navigation,
+    .newArrivalSection .navigation {
+        width: 28px;
+        color: white;
+        background: #dc3545;
+    }
+
+    .color-section .col-md-2 {
+        margin-top: 0.5rem;
+    }
+}
