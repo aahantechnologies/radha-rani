@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Radha Rani</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- bootstrap 4 css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- exo font family link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+    <!-- css animation link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        .item-container {
+            height: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header include here -->
+    <div w3-include-html="header.html"></div>
+    <!-- header include here -->
+    <header>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="myBannerShop position-relative" style="background-image:
+                    url('assets/images/banner/newArrivalBanner.jpeg')">
+                    <div class="overlay_banner"></div>
+                    <!-- <h4 class="banner-heading">Kurties</h4> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="AllProductSection">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="filter-height filer-container">
+                        <h3 class="mt-5">Filter</h3>
+                        <div class="row mt-4">
+                            <div class="col-6">
+                                <h6 class="bold">Color</h6>
+                            </div>
+                            <div class="col-6 text-right">
+                                <button class="btn btn-transparent" id="buttonColor"><i class="fa fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <div class="color-list mb-4" style="display: none;">
+                            <div class="filterbtn color-filter-color-box red" title="Red" data-custom-value="Red">
+                            </div>
+                            <div class="filterbtn color-filter-color-box beige" title="Beige" data-custom-value="beige">
+                            </div>
+                            <div class="filterbtn color-filter-color-box navyBlue" title="Navy Blue"
+                                data-custom-value="navy blue">
+                            </div>
+                            <div class="filterbtn color-filter-color-box green" title="Green" data-custom-value="green">
+                            </div>
+                            <div class="filterbtn color-filter-color-box mustard" title="Mustard"
+                                data-custom-value="mustard">
+                            </div>
+                            <div class="filterbtn color-filter-color-box lavender" title="Lavender"
+                                data-custom-value="lavender">
+                            </div>
+                            <div class="filterbtn color-filter-color-box royalBlue" title="Royal Blue"
+                                data-custom-value="royal blue">
+                            </div>
+                            <div class="filterbtn color-filter-color-box purple" title="Purple"
+                                data-custom-value="purple">
+                            </div>
+                            <div class="filterbtn color-filter-color-box orange" title="Orange"
+                                data-custom-value="orange">
+                            </div>
+                            <div class="filterbtn color-filter-color-box black" title="Black" data-custom-value="Black">
+                            </div>
+                            <div class="filterbtn color-filter-color-box fuchsiapink" title="Fuchsia Pink"
+                                data-custom-value="fuchsia">
+                            </div>
+                            <div class="filterbtn color-filter-color-box brown" title="Brown" data-custom-value="brown">
+                            </div>
+                            <div class="filterbtn color-filter-color-box maroon" title="Maroon"
+                                data-custom-value="maroon">
+                            </div>
+                            <div class="filterbtn color-filter-color-box carrotRed" title="Carrot Red"
+                                data-custom-value="carrot Red">
+                            </div>
+                            <div class="filterbtn color-filter-color-box babyPink" title="Baby Pink"
+                                data-custom-value="baby Pink">
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-6">
+                                <h6 class="bold">Material</h6>
+                            </div>
+                            <div class="col-6 text-right">
+                                <button class="btn btn-transparent" id="buttonMaterial"><i
+                                        class="fa fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <div class="material-list" style="display: none;">
+                            <div class="filterbtn material-filter-box" data-custom-value="Cotton Flex">Cotton Flex</div>
+                            <div class="filterbtn material-filter-box" data-custom-value="Cotton Silk">Cotton Silk
+                            </div>
+                            <div class="filterbtn material-filter-box" data-custom-value="Matka Cotton">Matka Cotton
+                            </div>
+                            <div class="filterbtn material-filter-box" data-custom-value="Pure Cotton">Pure Cotton
+                            </div>
+                            <div class="filterbtn material-filter-box" data-custom-value="Pure Silk">Pure Silk
+                            </div>
+                            <div class="filterbtn material-filter-box" data-custom-value="Georgette">Georgette
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-8">
+                                <h6 class="bold">Shop By Type</h6>
+                            </div>
+                            <div class="col-4 text-right">
+                                <button class="btn btn-transparent" id="buttonClothType"><i
+                                        class="fa fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <div class="type-list" style="display: none;">
+                            <div class="filterbtn material-filter-box" data-custom-value="Cotton Flex">Dress
+                            </div>
+                            <div class="filterbtn material-filter-box" data-custom-value="Kurta">Kurta
+                            </div>
+                            <div class="filterbtn material-filter-box" data-custom-value="Dupatta">Dupatta
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 pt-4 pl-5 pr-5">
+                    <div class="row" id="myProcust">
+                        <div class="col-md-3 mt-4 mb-4">
+                            <div class="item-container position-relative">
+                                <img src="assets/images/photo-1597983073512-90bd150e19f6.jpg" alt="" class="w-94 h-80">
+
+                                <div class="item-description text-center pt-3">
+                                    <p class="product-name mb-1"
+                                        style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">green
+                                        pure cotton kurta with dupatta</p>
+                                    <p class="product-price">Pure Silk
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4 mb-4">
+                            <div class="item-container position-relative">
+                                <img src="assets/images/photo-1597983073512-90bd150e19f6.jpg" alt="" class="w-94 h-80">
+
+                                <div class="item-description text-center pt-3">
+                                    <p class="product-name mb-1">red</p>
+                                    <p class="product-price">Georgette
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4 mb-4">
+                            <div class="item-container position-relative">
+                                <img src="assets/images/photo-1597983073512-90bd150e19f6.jpg" alt="" class="w-94 h-80">
+                                <div class="item-description text-center pt-3">
+                                    <p class="product-name mb-1">Black</p>
+                                    <p class="product-price">Silk</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4 mb-4">
+                            <div class="item-container position-relative">
+                                <img src="assets/images/photo-1597983073512-90bd150e19f6.jpg" alt="" class="w-94 h-80">
+
+                                <div class="item-description text-center pt-3">
+                                    <p class="product-name mb-1">blue</p>
+                                    <p class="product-price">Cotton</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4 mb-4">
+                            <div class="item-container position-relative">
+                                <img src="assets/images/dollar-gill-TWoftE_h0Mw-unsplash.jpg" alt="" class="w-94 h-80">
+
+                                <div class="item-description text-center pt-3">
+                                    <p class="product-name mb-1"
+                                        style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">green
+                                        pure cotton kurta with dupatta</p>
+                                    <p class="product-price">Pure Silk
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4 mb-4">
+                            <div class="item-container position-relative">
+                                <img src="assets/images/dollar-gill-TWoftE_h0Mw-unsplash.jpg" alt="" class="w-94 h-80">
+
+                                <div class="item-description text-center pt-3">
+                                    <p class="product-name mb-1">red</p>
+                                    <p class="product-price">Georgette
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4 mb-4">
+                            <div class="item-container position-relative">
+                                <img src="assets/images/dollar-gill-TWoftE_h0Mw-unsplash.jpg" alt="" class="w-94 h-80">
+                                <div class="item-description text-center pt-3">
+                                    <p class="product-name mb-1">Black</p>
+                                    <p class="product-price">Silk</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4 mb-4">
+                            <div class="item-container position-relative">
+                                <img src="assets/images/dollar-gill-TWoftE_h0Mw-unsplash.jpg" alt="" class="w-94 h-80">
+
+                                <div class="item-description text-center pt-3">
+                                    <p class="product-name mb-1">blue</p>
+                                    <p class="product-price">Cotton</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4 mb-4">
+                            <div class="item-container position-relative">
+                                <img src="assets/images/photo-1597983073512-90bd150e19f6.jpg" alt="" class="w-94 h-80">
+                                <div class="item-description text-center pt-3">
+                                    <p class="product-name mb-1">Black</p>
+                                    <p class="product-price">Silk</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4 mb-4">
+                            <div class="item-container position-relative">
+                                <img src="assets/images/photo-1597983073512-90bd150e19f6.jpg" alt="" class="w-94 h-80">
+
+                                <div class="item-description text-center pt-3">
+                                    <p class="product-name mb-1">blue</p>
+                                    <p class="product-price">Cotton</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4 mb-4">
+                            <div class="item-container position-relative">
+                                <img src="assets/images/dollar-gill-TWoftE_h0Mw-unsplash.jpg" alt="" class="w-94 h-80">
+
+                                <div class="item-description text-center pt-3">
+                                    <p class="product-name mb-1"
+                                        style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">green
+                                        pure cotton kurta with dupatta</p>
+                                    <p class="product-price">Pure Silk
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4 mb-4">
+                            <div class="item-container position-relative">
+                                <img src="assets/images/dollar-gill-TWoftE_h0Mw-unsplash.jpg" alt="" class="w-94 h-80">
+
+                                <div class="item-description text-center pt-3">
+                                    <p class="product-name mb-1">red</p>
+                                    <p class="product-price">Georgette
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination  mt-5">
+                            <li class="page-item">
+                                <a class="page-link text-dark" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link  text-dark" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link  text-dark" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link  text-dark" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link  text-dark" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+    <div w3-include-html="footer.html"></div>
+    <!-- bootstrap 4 js -->
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".filterbtn").on("click", function () {
+                var value = $(this).data("custom-value").toLowerCase();
+                $("#myProcust div").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+
+        function includeHTML() {
+            var z, i, elmnt, file, xhttp;
+            /* Loop through a collection of all HTML elements: */
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i]; /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                    /* Make an HTTP request using the attribute value
+                                 as the file name: */
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function () {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) {
+                                elmnt.innerHTML = this.responseText;
+                            }
+                            if (this.status == 404) {
+                                elmnt.innerHTML = "Page not found.";
+                            } /* Remove the attribute, and call this function once more: */
+                            elmnt.removeAttribute("w3-include-html");
+                            includeHTML();
+                        }
+                    }
+                    xhttp.open("GET", file, true);
+                    xhttp.send(); /* Exit the function: */
+                    return;
+                }
+            }
+        }
+        $(document).ready(function () {
+            includeHTML();
+        });
+
+
+        // slide filter list 
+        $(document).ready(function () {
+            $("#buttonColor").click(function () {
+                $(".color-list").toggle();
+            });
+            $("#buttonMaterial").click(function () {
+                $(".material-list").toggle();
+            });
+            $("#buttonClothType").click(function () {
+                $(".type-list").toggle();
+            });
+        });
+    </script>
+</body>
+
+</html>

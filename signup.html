@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Radha Rani</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- bootstrap 4 css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- exo font family link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+    <!-- css animation link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        .item-container {
+            height: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header include here -->
+    <div w3-include-html="header.html"></div>
+    <!-- header include here -->
+    <div class="container-fluid mt-5 mb-5">
+        <div class="row pt-5 pb-5">
+            <div class="col-md-4 col-sm-4"></div>
+            <div class="col-md-4 col-sm-4 col-12 text-center">
+                <h3 class="pb-3">Sign Up</h3>
+                <p class="pb-4">Please fill in the information below: </p>
+
+                <form action="">
+                    <div class="form-group">
+                        <input type="text" class="form-control inputHeight" placeholder="First Name" id="fname">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control inputHeight" placeholder="Last Name" id="lname">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control inputHeight" placeholder="Email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control inputHeight" placeholder="Password" id="pwd">
+                    </div>
+                    <button type="submit" class="btn btn-danger w-100 inputHeight">Sign Up</button>
+
+                </form>
+                <p class="pt-3 text-muted">Already have an account?<a href="login.html" class="text-dark">Log In </a>
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-4"></div>
+        </div>
+
+    </div>
+
+
+    <!-- footer end -->
+    <div w3-include-html="footer.html"></div>
+    <!-- bootstrap 4 js -->
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".filterbtn").on("click", function () {
+                var value = $(this).data("custom-value").toLowerCase();
+                $("#myProcust div").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+
+        function includeHTML() {
+            var z, i, elmnt, file, xhttp;
+            /* Loop through a collection of all HTML elements: */
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i]; /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                    /* Make an HTTP request using the attribute value
+                                 as the file name: */
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function () {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) {
+                                elmnt.innerHTML = this.responseText;
+                            }
+                            if (this.status == 404) {
+                                elmnt.innerHTML = "Page not found.";
+                            } /* Remove the attribute, and call this function once more: */
+                            elmnt.removeAttribute("w3-include-html");
+                            includeHTML();
+                        }
+                    }
+                    xhttp.open("GET", file, true);
+                    xhttp.send(); /* Exit the function: */
+                    return;
+                }
+            }
+        }
+        $(document).ready(function () {
+            includeHTML();
+        });
+    </script>
+</body>
+
+</html>

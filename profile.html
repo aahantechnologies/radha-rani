@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Radha Rani</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- bootstrap 4 css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- exo font family link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+    <!-- css animation link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        .item-container {
+            height: 350px;
+        }
+        .input-group{
+            width: 75% !important; 
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header include here -->
+     <div w3-include-html="header.html"></div> 
+       <!-- header include here -->
+    <div class="AllProductSection">
+        <div class="container">
+           <div class="row">
+               <div class="col-2"></div>
+                <div class="col-8 mb-5">
+                    <h4 class="font-weight-normal mt-5">Profile</h4>
+                    <div class="profileConatiner">
+                        <div class="profileImageBox position-relative">
+                            <img src="assets/images/girl.jpg" class="w-100 h-100 rounded-circle"  alt="">
+                            <i class="fa fa-pencil change"></i>
+                        </div>
+                    </div>
+                    <h4 class="font-weight-normal mt-5">Basic Info</h4>
+                    <div class="profileConatiner pt-4 pb-4">
+                        <div class="row">
+                            <div class="col-10">
+                                <input type="text" class="w-100 border-0 pl-2 bg-input" placeholder="Mobile Number">
+                            </div>
+                            <div class="col-2 text-right">
+                                <button class="btn btn-success text-white">Change </button>
+                            </div>
+                            <div class="col-12 mt-4">
+                                <input type="text" class="w-100 border-0 pl-2 bg-input" placeholder="Name">
+                            </div>
+                            <div class="col-12  mt-4">
+                                <input type="text" class="w-100 border-0 pl-2 bg-input" placeholder="Email">
+                            </div>
+                           <div class="col-12  mt-4">
+                               <button class="w-100 btn btn-success text-white">Save Info</button>
+                           </div>
+                        </div>
+                     
+                    </div>
+                    <h4 class="font-weight-normal mt-5">Change Password</h4>
+                    <div class="profileConatiner pt-4 pb-4">
+                        <div class="row">
+                            <div class="col-12">
+                                <input type="text" class="w-100 border-0 pl-2 bg-input" placeholder="Current Password">
+                            </div>
+                            <div class="col-12 mt-4">
+                                <input type="text" class="w-100 border-0 pl-2 bg-input" placeholder="New Password">
+                            </div>
+                            <div class="col-12  mt-4">
+                                <input type="text" class="w-100 border-0 pl-2 bg-input" placeholder="Confirm Password">
+                            </div>
+                           <div class="col-12  mt-4">
+                               <button class="w-100 btn btn-success text-white">Save New Password</button>
+                           </div>
+                        </div>
+                     
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+    <!-- footer end -->
+    <div w3-include-html="footer.html"></div>
+    <!-- bootstrap 4 js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script>
+function includeHTML() {
+    var z, i, elmnt, file, xhttp;
+    /* Loop through a collection of all HTML elements: */
+    z = document.getElementsByTagName("*");
+    for (i = 0; i < z.length; i++) {
+        elmnt = z[i]; /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+            /* Make an HTTP request using the attribute value
+                            as the file name: */
+            xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4) {
+                    if (this.status == 200) {
+                        elmnt.innerHTML = this.responseText;
+                    }
+                    if (this.status == 404) {
+                        elmnt.innerHTML = "Page not found.";
+                    } /* Remove the attribute, and call this function once more: */
+                    elmnt.removeAttribute("w3-include-html");
+                    includeHTML();
+                }
+            }
+            xhttp.open("GET", file, true);
+            xhttp.send(); /* Exit the function: */
+            return;
+        }
+    }
+}
+$(document).ready(function () {
+    includeHTML();
+});
+    </script>
+</body>
+
+</html>

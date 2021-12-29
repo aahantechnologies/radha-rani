@@ -1,0 +1,226 @@
+[18-Mar-2021 10:33:40 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 790
+[18-Mar-2021 10:33:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 790
+[18-Mar-2021 10:34:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 790
+[18-Mar-2021 10:53:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 789
+[18-Mar-2021 10:53:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 790
+[18-Mar-2021 10:56:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 789
+[18-Mar-2021 10:56:47 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 790
+[18-Mar-2021 10:57:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 789
+[18-Mar-2021 10:57:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 790
+[18-Mar-2021 10:57:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 789
+[18-Mar-2021 10:57:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 790
+[18-Mar-2021 10:58:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 789
+[18-Mar-2021 10:58:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 790
+[18-Mar-2021 10:59:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 789
+[18-Mar-2021 10:59:27 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 790
+[18-Mar-2021 10:59:42 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 789
+[18-Mar-2021 10:59:42 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 790
+[18-Mar-2021 11:11:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 789
+[18-Mar-2021 11:11:16 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 790
+[19-Mar-2021 10:08:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 1377
+[19-Mar-2021 12:07:23 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:07:27 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:08:11 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:11:16 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:12:27 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:13:14 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:14:04 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:14:06 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:14:08 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:14:09 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:14:09 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:14:10 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:14:10 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:14:45 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:14:48 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:14:54 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:14:56 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:18:23 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:25:49 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[19-Mar-2021 12:25:54 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 538
+[22-Mar-2021 10:16:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function fetch_assoc() in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php:550
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 550
+[22-Mar-2021 10:16:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function fetch_assoc() in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php:550
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 550
+[22-Mar-2021 10:27:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 595
+[22-Mar-2021 10:27:45 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 595
+[22-Mar-2021 10:27:46 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 595
+[22-Mar-2021 10:27:53 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 595
+[22-Mar-2021 10:48:44 UTC] PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE), expecting ';' or ',' in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 585
+[27-Apr-2021 09:45:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/shopProductDisplay2.php on line 428
+[27-Apr-2021 09:45:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/shopProductDisplay2.php on line 428
+[27-Apr-2021 09:45:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/shopProductDisplay2.php on line 428
+[27-Apr-2021 09:46:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/shopProductDisplay2.php on line 427
+[27-Apr-2021 09:46:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/shopProductDisplay2.php on line 427
+[27-Apr-2021 10:12:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/shopProductDisplay2.php on line 429
+[27-Apr-2021 10:16:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/shopProductDisplay2.php on line 430
+[27-Apr-2021 10:20:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/shopProductDisplay2.php on line 431
+[27-Apr-2021 10:20:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/shopProductDisplay2.php on line 431
+[27-Apr-2021 10:20:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/shopProductDisplay2.php on line 431
+[27-Apr-2021 10:21:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/shopProductDisplay2.php on line 432
+[28-Apr-2021 07:29:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 1520
+[26-May-2021 16:14:22 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[26-May-2021 16:14:22 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[26-May-2021 16:15:07 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[26-May-2021 16:15:07 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[26-May-2021 16:16:15 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[26-May-2021 16:16:15 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[26-May-2021 16:16:44 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[26-May-2021 16:16:44 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[26-May-2021 16:16:49 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[26-May-2021 16:16:49 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 04:08:52 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 04:08:52 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 04:43:10 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 04:43:10 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 04:43:42 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 04:43:42 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 04:44:41 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 04:44:41 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 04:44:45 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 04:44:45 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 04:56:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function insertQuery() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 51
+[27-May-2021 04:57:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function insertQuery() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 51
+[27-May-2021 05:00:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function insertQuery() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 51
+[27-May-2021 05:03:40 UTC] PHP Fatal error:  Uncaught Error: Class 'DBController' not found in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 45
+[27-May-2021 05:28:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 46
+[27-May-2021 05:31:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 46
+[27-May-2021 05:32:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 46
+[27-May-2021 05:33:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 46
+[27-May-2021 05:34:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 46
+[27-May-2021 05:42:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 46
+[27-May-2021 05:42:49 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 05:42:49 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 05:43:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 46
+[27-May-2021 06:41:00 UTC] PHP Warning:  include(database_connection.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:41:00 UTC] PHP Warning:  include(database_connection.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:41:00 UTC] PHP Warning:  include(): Failed opening 'database_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:41:51 UTC] PHP Warning:  include(database_connection.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:41:51 UTC] PHP Warning:  include(database_connection.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:41:51 UTC] PHP Warning:  include(): Failed opening 'database_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:42:03 UTC] PHP Warning:  include(database_connection.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:42:03 UTC] PHP Warning:  include(database_connection.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:42:03 UTC] PHP Warning:  include(): Failed opening 'database_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:42:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 128
+[27-May-2021 06:44:59 UTC] PHP Warning:  include(database_connection.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:44:59 UTC] PHP Warning:  include(database_connection.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:44:59 UTC] PHP Warning:  include(): Failed opening 'database_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:45:02 UTC] PHP Warning:  include(database_connection.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:45:02 UTC] PHP Warning:  include(database_connection.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:45:02 UTC] PHP Warning:  include(): Failed opening 'database_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:45:13 UTC] PHP Warning:  include(database_connection.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:45:13 UTC] PHP Warning:  include(database_connection.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:45:13 UTC] PHP Warning:  include(): Failed opening 'database_connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 113
+[27-May-2021 06:45:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 128
+[27-May-2021 06:46:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 46
+[27-May-2021 06:46:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 46
+[27-May-2021 06:47:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 46
+[27-May-2021 07:28:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bindParam() on bool in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:131
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 131
+[27-May-2021 07:29:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 46
+[27-May-2021 10:04:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 46
+[27-May-2021 11:19:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 46
+[27-May-2021 11:20:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 46
+[27-May-2021 11:20:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 46
+[27-May-2021 11:26:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 46
+[27-May-2021 11:28:52 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 11:28:52 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 11:30:32 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 11:30:32 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 11:34:30 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 11:34:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 11:34:48 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 11:34:48 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 11:35:28 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 11:35:28 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 11:35:41 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 11:35:41 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 11:37:49 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 11:37:49 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 11:37:59 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[27-May-2021 11:37:59 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[29-May-2021 07:26:45 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[29-May-2021 07:26:45 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[29-May-2021 07:29:52 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[29-May-2021 07:29:52 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[29-May-2021 07:30:29 UTC] PHP Warning:  require_once(/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php): failed to open stream: No such file or directory in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[29-May-2021 07:30:29 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/assets/autoload.php on line 5
+[29-May-2021 09:51:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/EmailVerified.php on line 63
+[31-May-2021 08:35:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/index.php on line 554
+[21-Jul-2021 06:35:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'raadh5xq'@'localhost' (using password: YES) in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/connection.php on line 2
+[22-Jul-2021 06:35:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/raadh5xq/public_html/aahantechnologies.com/RaadhaRaniDesigns/shopProductDisplay2.php on line 6
